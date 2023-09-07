@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Page</title>
+</head>
+<style>
+    body {
+        background-image: url("./bg_reg.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+</style>
+<body>
+    <br><br>
+    <center><img src="https://imgs.search.brave.com/YT6ao-Ngb5s5O73p5tznYdEif1Gi2M92zEXjhjutfqI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0cv/MDEveC1sb2NhbGUv/Y3MvaGVscC9pbWFn/ZXMvZ2F0ZXdheS9z/ZWxmLXNlcnZpY2Uv/c2VjdXJpdHkuX0NC/NjU5NjAwNDEzXy5w/bmc" alt="Security"></center>
+    <br><br>
+    <div class="center">
+        <center><h1 style="color: rgb(229, 21, 21);"><u><i>Please Register your details</i></u></h1></center><br>
+        <form action="home.html" align="center">
+            <label for="name">
+                <b>Name :</b>
+                <input type="text" id="name" placeholder="Enter your name">
+            </label>
+            <br>
+            <br>
+            <label for="SRN">
+            <b>SRN :</b>
+                <input type="text" id="SRN" placeholder="Enter your SRN">
+            </label>
+            <br>
+            <br>
+            <label for="password">
+            <b>Password :</b>
+                <input type="password" id="password" placeholder="Enter new password">
+            </label>
+            <br>
+            <br>
+            <label for="DOB">
+            <b>Date Of Birth :</b>
+                <input type="date">
+            </label>
+            <br>
+            <br>
+            <label for="Email">
+            <b>Enter Reva Email ID :</b>
+                <input type="email" placeholder="Type your email id">
+            </label>
+            <br><br>
+            <label for="Sem">
+            <b>Choose your Semester :</b>
+                <select name="Semester" id="Semester">
+                    <option value="no Semester">Select</option>
+                    <option value="Semester">1</option>
+                    <option value="Semester">2</option>
+                    <option value="Semester">3</option>
+                    <option value="Semester">4</option>
+                    <option value="Semester">5</option>
+                    <option value="Semester">6</option>
+                    <option value="Semester">7</option>
+                    <option value="Semester">8</option>
+                </select>
+            </label>
+            <br>
+            <br>
+            <label for="Gender">
+            <b>Select your Gender :</b> &nbsp;
+                MALE&nbsp;<input type="radio" name="M" id="Gender"> &ensp;&ensp;&ensp;
+                FEMALE&nbsp;<input type="radio" name="M" id="Gender">
+            </label>
+            <br>
+            <br>
+            <br>
+            <button type="reset">Reset</button> &nbsp;&nbsp;
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
